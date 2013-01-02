@@ -1,7 +1,13 @@
 (function( $ ) {
   
 window.LazyTemplates = {
-  
+    init: function(){
+        LazyTemplates.wrapTemplates();
+        LazyTemplates.loadVisible();
+        $(window).on("resize", LazyTemplates.loadVisible);
+        $(window).on("scroll", LazyTemplates.loadVisible)
+    },
+
     setWidth: function (_targetElem, _width) {
         $(_targetElem).parent().css("width", _width)
     },
@@ -68,12 +74,5 @@ window.LazyTemplates = {
       }
 
 };
-
-$(document).ready(function () {
-    LazyTemplates.wrapTemplates();
-    LazyTemplates.loadVisible();
-    $(window).on("resize", LazyTemplates.loadVisible);
-    $(window).on("scroll", LazyTemplates.loadVisible)
-});
 
 })( jQuery );
