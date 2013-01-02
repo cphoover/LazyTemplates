@@ -6,7 +6,7 @@ Lazy load html from a template when positioned into view.
 
 To LazyLoad content in just wrap the markup in <script type="text/html" class="lazy" > Markup here... </script>
 
-When the content comes into the viewport it will automatically be loaded into the dom.
+When the placeholder comes into the viewport it will automatically be loaded into the dom.
 
 Initialization
 =============
