@@ -50,7 +50,7 @@ window.LazyTemplates = {
             var height = $(this).attr("data-height");
             "undefined" != typeof height && LazyTemplates.setHeight(height);
 
-        })
+        });
     },
   
     elementInViewport: function(_targetElem) {
