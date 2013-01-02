@@ -32,7 +32,7 @@ window.LazyTemplates = {
         $(_targetElem).parent().before($(_targetElem).html());
       
         var callback = $(_targetElem).data("callback");
-        "function" == typeof callback && setTimeout(function () {callback();}, 0);
+        "function" == typeof callback && setTimeout(function () {callback(_targetElem);}, 0);
       
         $(_targetElem).parent().remove()
     },
