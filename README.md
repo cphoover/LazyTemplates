@@ -17,7 +17,8 @@ Initialization
 Data Options
 =============
 
-Lazy Templates comes with the option to set a width and height on the placeholder element. As well as specify a callback to be fired after the template is loaded into the dom...
+Lazy Templates comes with the option to set a width and height on the placeholder element. As well as specify a callback to be fired after the template is loaded into the dom... 
+This is done through the use of data attributes with this syntax: `data-[option]="[value]"` ([option] being the option to set, and [value] being the value).
 
 
 Usage example: 
