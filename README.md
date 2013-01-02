@@ -8,12 +8,17 @@ To LazyLoad content in just wrap the markup in <script type="text/html" class="l
 
 When the content comes into the viewport it will automatically be loaded into the dom.
 
+Initialization
+=============
+
+    LazyTemplates.init();
+    
+
 Data Options
 =============
 
 Lazy Templates comes with the option to set a width and height on the placeholder element. As well as specify a callback to be fired after the template is loaded into the dom...
 
-**TODO**: Ajax Loading
 
 Usage example: 
 
@@ -42,3 +47,9 @@ Usage example:
     </tr>
   </tbody>
 </table>
+
+TODO
+=============
+Ajax Content Loading
+Turn into jquery style or allow setting of selectors (e.g not just .lazy that can be a default tho.)
+
