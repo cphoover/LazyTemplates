@@ -51,7 +51,7 @@ Usage example:
 
 TODO
 =============
-Ajax Content Loading
-Turn into jquery style or allow setting of selectors (e.g not just .lazy that can be a default tho.)
-Check visibility make sure it is not under something too.
+*    Ajax Content Loading
+*    Turn into jquery style or allow setting of selectors (e.g not just .lazy that can be a default tho.)
+*    Check visibility make sure it is not under something too.
 
