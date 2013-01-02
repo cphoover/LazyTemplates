@@ -17,10 +17,10 @@ Lazy Templates comes with the option to set a width and height on the placeholde
 
 Usage example: 
 
-    `<script type="text/html" data-width="200" data-height="200" data-callback="bang" class="lazy">
-                        <h1>I'm serious as a heart attack</h1>
-                        <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
-    </script>`
+    <script type="text/html" data-width="200" data-height="200" data-callback="bang" class="lazy">
+          <h1>I'm serious as a heart attack</h1>
+          <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
+    </script>
 
 <table>
   <tbody>
