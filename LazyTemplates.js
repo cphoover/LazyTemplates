@@ -5,15 +5,15 @@ window.LazyTemplates = {
         LazyTemplates.wrapTemplates();
         LazyTemplates.loadVisible();
         $(window).on("resize", LazyTemplates.loadVisible);
-        $(window).on("scroll", LazyTemplates.loadVisible)
+        $(window).on("scroll", LazyTemplates.loadVisible);
     },
 
     setWidth: function (_targetElem, _width) {
-        $(_targetElem).parent().css("width", _width)
+        $(_targetElem).parent().css("width", _width);
     },
   
     setHeight: function (_targetElem, _height) {
-        $(_targetElem).parent().css("height", _height)
+        $(_targetElem).parent().css("height", _height);
     },
   
     setCallback: function (_targetElem, _callback) {
@@ -25,7 +25,7 @@ window.LazyTemplates = {
     loadVisible: function () {
         $(".lazy-wrapper").each(function () {
             LazyTemplates.elementInViewport(this) && LazyTemplates.loadContent($(this).children().first());
-        })
+        });
     },
   
     loadContent: function (_targetElem) {
@@ -34,7 +34,7 @@ window.LazyTemplates = {
         var callback = $(_targetElem).data("callback");
         "function" == typeof callback && setTimeout(function () {callback(_targetElem);}, 0);
       
-        $(_targetElem).parent().remove()
+        $(_targetElem).parent().remove();
     },
   
     wrapTemplates: function () {
