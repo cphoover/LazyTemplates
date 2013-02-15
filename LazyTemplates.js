@@ -48,7 +48,7 @@ window.LazyTemplates = {
             "undefined" != typeof width && LazyTemplates.setWidth(this, width);
           
             var height = $(this).attr("data-height");
-            "undefined" != typeof height && LazyTemplates.setHeight(height);
+            "undefined" != typeof height && LazyTemplates.setHeight(this,height);
 
         });
     },
